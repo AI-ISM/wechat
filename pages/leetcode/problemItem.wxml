@@ -1,0 +1,10 @@
+<template name="problemItem">
+  <view class="feed-item" bindtap="bindViewTap" data-problemid="{{item.id}}">
+    <view class="feed-title">
+      {{item.title}}
+    </view>
+    <view class="feed-content">
+      {{item.title}}
+    </view>
+  </view>
+</template>

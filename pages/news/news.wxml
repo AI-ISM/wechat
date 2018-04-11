@@ -1,0 +1,4 @@
+<!--news.wxml-->
+<view class="container">
+  <text>news</text>
+</view>

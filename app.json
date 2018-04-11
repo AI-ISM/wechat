@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/leetcode/problemAll",
+    "pages/article/index",
+    "pages/article/item",
+    "pages/index/index",
+    "pages/news/news",
+    "pages/profile/profile"
+  ],
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#ff6666",
+    "backgroundColor": "#fff",
+    "borderStyle": "#cdcdcd",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/leetcode/problemAll",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/article/index",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AIism",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+}

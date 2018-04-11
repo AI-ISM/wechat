@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view>
+    <button  bindtap="routeInfo">get articles</button>
+    <ul wx:for="{{articles}}" wx:for-item="article" wx:key="key" >
+      <li >{{article.title.text}}</li>
+    </ul> 
+  </view>
+</view>

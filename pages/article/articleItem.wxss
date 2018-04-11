@@ -1,0 +1,4 @@
+.feed-item{
+  background-color: #cdcdcd;
+  color: rebeccapurple
+}

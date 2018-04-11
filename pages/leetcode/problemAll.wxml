@@ -1,0 +1,7 @@
+<!--pages/article/index.wxml  -->
+<import src="./problemItem.wxml" />
+<scroll-view scroll-y="true" class="container" upper-threshold="5" bindscrolltoupper="upper">
+  <block wx:for="{{leetcodeFeeds}}" wx:key="id">
+    <template is="problemItem" data="{{item}}" />
+  </block>
+</scroll-view> 
